@@ -1,0 +1,35 @@
+Hello everyone!! Welcome for the first assignment.
+
+You have to write a shell script. You will be given a command like "./a.sh x y z A B C ". Here the first 3 arguments(x,y & z) are positive integers and last 3 arguments are strings.
+Task 1:
+	a. Create 3 folders ( a, b & c )
+	b. Choose a folder according to the maximum value of first 3 positive integer arguments. If 1st argument is maximum,you must choose a. If 2nd,choose b. And so on.
+	c. Create a file and wrtie down x times A,y times B,z times C.
+
+Task 2:
+	a. Replace the maximum times string that was written on that text file by "DDD"
+	
+Example:
+
+Command	     ./a.sh 1 2 3 AAA BBB CCC
+After execution:
+Task 1:
+	a
+	b
+	c----new.txt----AAA
+					BBB
+					BBB
+					CCC
+					CCC
+					CCC
+	
+
+Task 2:
+	a
+	b
+	c----new.txt----AAA
+					BBB
+					BBB
+					DDD
+					DDD
+					DDD
